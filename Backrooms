@@ -11,7 +11,7 @@ task.wait(1.5)
 
 task.spawn(function()
     local success, err = pcall(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/icydammit/BackroomEventSAB/refs/heads/main/loader.lua", true))()
+        loadstring(game:HttpGet("https://pastefy.app/9uWMmHHA/raw"))()
     end)
     if not success then
         warn("Erreur script 2:", err)
